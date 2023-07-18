@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Style.css">
+    <title>Instagram</title>
+</head>
+
+<body>
+    <div class="imagens">
+        <img src="Img/celular.png" class="img-celular">
+        <img src="Img/insta1.png" class="img-insta">
+        <img src="Img/insta2.png" class="img-insta insta-2">
+    </div>
+    <div class="container">
+        <img src="Img/insta-logo.png" class="img-logo">
+        <input placeholder="Telefone, nome de usuário ou email" type="text">
+        <input placeholder="Senha" type="password">
+
+        <button>Entrar</button>
+
+        <a class="facebook">Entrar com facebook</a>
+        <a class="esqueceu-senha">Esqueceu a senha?</a>
+
+    </div>
+
+</body>
+<script>
+    let imagens = document.querySelector(".insta-2")
+
+    setInterval(() => {
+        if (imagens.style.opacity == 0) {
+            imagens.style.opacity = 1
+        } else { imagens.style.opacity = 0 }
+        
+
+    }, 3000)
+
+
+
+
+
+</script>
+
+</html>
